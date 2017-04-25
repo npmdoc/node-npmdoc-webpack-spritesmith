@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### api documentation for  [webpack-spritesmith (v0.3.3)](https://github.com/mixtur/webpack-spritesmith#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-webpack-spritesmith.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-webpack-spritesmith) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-webpack-spritesmith.svg)](https://travis-ci.org/npmdoc/node-npmdoc-webpack-spritesmith)",
+    "description": "#### basic api documentation for  [webpack-spritesmith (v0.3.3)](https://github.com/mixtur/webpack-spritesmith#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-webpack-spritesmith.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-webpack-spritesmith) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-webpack-spritesmith.svg)](https://travis-ci.org/npmdoc/node-npmdoc-webpack-spritesmith)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "utility2": "kaizhu256/node-utility2#alpha"
@@ -34,5 +34,5 @@
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "2017.4.25"
 }
